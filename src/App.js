@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter className="App">
       <Navbar/>
         <Routes>
-          <Route path='/tp5_react' element={<Calcul/>}></Route>
+          <Route path='/tp6_react' element={<Calcul/>}></Route>
           <Route path='tp2' element={<Slider/>}></Route>
           <Route path='tp3'  element={<Form/>}></Route>
           <Route path='tp4'  element={<Pagination/>}></Route>

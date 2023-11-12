@@ -7,10 +7,11 @@ import Navbar from './Navbar.js/Navbar';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 function App() {
   return (
+    <div> 
     <BrowserRouter className="App">
       <Navbar/>
         <Routes>
-          <Route path='/' element={<Calcul/>}></Route>
+          <Route path='/tp5_react' element={<Calcul/>}></Route>
           <Route path='tp2' element={<Slider/>}></Route>
           <Route path='tp3'  element={<Form/>}></Route>
           <Route path='tp4'  element={<Pagination/>}></Route>
@@ -18,6 +19,7 @@ function App() {
 
         </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 

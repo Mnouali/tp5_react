@@ -7,7 +7,7 @@ import Navbar from './Navbar.js/Navbar';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 function App() {
   return (
-    <div> 
+    
     <BrowserRouter className="App">
       <Navbar/>
         <Routes>
@@ -19,7 +19,7 @@ function App() {
 
         </Routes>
     </BrowserRouter>
-    </div>
+  
   );
 }
 
